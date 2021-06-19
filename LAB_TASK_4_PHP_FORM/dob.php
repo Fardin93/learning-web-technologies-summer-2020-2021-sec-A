@@ -1,10 +1,9 @@
-  <?php
-	if(isset($_POST['submit']))
-	{
+<?php
+	if(isset($_POST['submit'])){
 
-		$name 		=  $_POST['myname'];
+		$dob 		=  $_POST['dob'];
 
-		if($name == ""){
+		if($dob == ""){
 			echo "Null submission...";
 		}else{
 			echo "Success";
@@ -15,4 +14,4 @@
 	}
 
 
-?> 
+?>

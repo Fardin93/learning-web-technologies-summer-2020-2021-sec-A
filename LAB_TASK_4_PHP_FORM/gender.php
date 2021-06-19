@@ -1,10 +1,9 @@
-  <?php
-	if(isset($_POST['submit']))
-	{
+<?php
+	if(isset($_POST['submit'])){
 
-		$name 		=  $_POST['myname'];
+		$gender 		=  $_POST['gender'];
 
-		if($name == ""){
+		if($gender == ""){
 			echo "Null submission...";
 		}else{
 			echo "Success";
@@ -14,5 +13,5 @@
 		echo 'invalid request...';
 	}
 
-
-?> 
+ 
+?>

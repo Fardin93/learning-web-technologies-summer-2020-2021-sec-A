@@ -1,10 +1,9 @@
-  <?php
-	if(isset($_POST['submit']))
-	{
+<?php
+	if(isset($_POST['submit'])){
 
-		$name 		=  $_POST['myname'];
+		$BloodGroup 		=  $_POST['BloodGroup'];
 
-		if($name == ""){
+		if($BloodGroup == ""){
 			echo "Null submission...";
 		}else{
 			echo "Success";
