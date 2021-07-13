@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Adding</title>
+</head>
+<body>
+        <form method="POST" action="../controller/productCheck.php">
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>Name:<br><input type="text" name="name" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Buying Price:<br><input type="text" name="buyP" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Selling Price:<br><input type="text" name="sellP" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr><input type="checkbox" name="display" value="">Display
+                        </td>
+                    </tr>
+                    
+                    <td>
+                        <hr><input type="submit" name="submit" value="save">
+                    </td>
+
+                </table>
+            </fieldset>
+        </form>
+</body>
+</html>
